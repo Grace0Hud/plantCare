@@ -1,0 +1,240 @@
+style
+{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* Various headers and text styling */
+h1
+{
+  text-align: center;
+  color: #ccedc5;
+  font-size: 45px;
+  display:block;
+  box-sizing: border-box;
+  padding: 8px 8px;
+  background-color: #f5f5f5;
+  text-shadow: 2px 2px rgba(129, 129, 129, 0.767);
+  box-shadow: 6px 6px rgba(129, 129, 129, 0.2);
+  border: 2px solid rgba(129, 129, 129, 0.2);
+}
+h2{
+  text-align: center;
+  color:#ccedc5;;
+  display:block;
+  padding: 6px 6px;
+   background-color: rgba(255, 255, 255, 0.65);
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a7d9bd;
+}
+h3{
+  color:#8ab881;
+}
+h4
+{
+ color:#787878;
+}
+p{
+  color:#787878;
+  word-wrap: break-word;
+}
+/* Styles makes sure text column stays where its supposed to */
+.column
+{
+  float: left;
+   box-sizing: border-box;
+}
+.information
+{
+  padding: 10;
+  width: 61%;
+  margin-left: 21%;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+/* Navigation styles */
+ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f0f0f0;
+  height: 100%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li#nav a {
+  font-size: 20px;
+  display: block; 
+  color: #8ab881;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li#nav a:hover {
+  background-color: #ccedc5;
+  color: white;
+}
+
+/*styling regular lists */
+li a
+{
+  color:#ccedc5;
+  text-decoration: none;
+}
+dd
+{
+  color: #787878;
+}
+li
+{
+  color: #8ab881;
+}
+li b
+{
+  color:#787878;
+}
+/* Background of each page styles */
+/*Which, by the way, it's ugly for every page to be a different color.
+It. Is. Ugly. So these are just sliiiigghhttly different colors to furfill my requirements. I refuse to make it completely ugly. */
+/* ms.rioux i hope you know this physically pained me to do. It hurt me to make all of these different colors. It hurt. I value my grade so much that I treked through this abomination */
+ body#succulents
+{
+  background-color:#f0f2df;
+}
+body#easyPlants
+{
+  background-color:#e5f5df;
+}
+body#advancedPlants
+{
+  background-color:#d8f7d2;
+}
+/*Image styles*/
+img {
+  float: right;
+  border-radius: 8px;
+  position: absolute;
+  left: 82%;
+   width: 250px;
+  height: 150px;
+}
+img#bearPaw, img#orchid
+{
+  top:15%;
+}
+img#repottingSucculent, img#fern
+{
+  top: 40%;
+}
+img#repottingSucculent2, img#africanViolets
+{
+  top: 65%;
+}
+/* Styles for iframes (vids and PDFs)*/
+iframe
+{
+ float: right;
+  top: 90%;
+  border-radius: 8px;
+  position: absolute;
+  left: 82%;
+}
+iframe#easyPlantPDF
+{
+  float: right;
+  top: 95%;
+  border-radius: 8px;
+  position: absolute;
+  left:21%;
+}
+/*sets highlight color */
+mark
+{
+  background-color: antiquewhite;
+}
+/*Styles for the table */
+ tbody {
+          font-size: 90%;
+          font-style: italic;
+          
+        }
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid#787878;;
+  padding: 10px 20px;
+  color:#8ab881;
+}
+
+th {
+  background-color:#e5f5df;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #e8e8e8;
+}
+
+tr:nth-child(odd) td {
+  background-color: #f0f0f0;
+}
+
+caption {
+  padding: 10px;
+}
+
+/*Organization of the form/ styles for form */
+input[type=text], select{
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+label
+{
+  color : #8ab881;
+}
+input[type=submit] {
+  background-color: #8ab881;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:#ccedc5;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+/*Styles for my letter example */
+address#myAdress
+{
+  text-align: right;
+}
+h5
+{
+  font-size: 20px;
+  color:#787878;
+}

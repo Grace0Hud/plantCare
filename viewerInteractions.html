@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id = "viewerInteractions">
+<h1>Viewer Feedback</h1>
+ <div class = "row">
+<!-- navigation panel -->
+  <div class = "column">
+  <nav>
+    <ul id = "nav">
+      <li id = "nav"><a href = "index.html">Home</a></li>
+      <li id = "nav"><a href = "succulents.html">Succulents/Desert Plants</a></li>
+      <li id = "nav"><a href = "easyPlants.html">Easy Plants</a></li>
+      <li id = "nav"><a href = "advancedPlants.html">Advanced Plants</a></li>
+       <li id = "nav"><a href = "viewerInteractions.html">Feedback Options </a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class = "column information">
+    <h3>If you would like to contact me about any plant information - or expressly tell me I'm wrong, please fill out the form below.</h3>
+    <div class = "container">
+       <form action="action_page.php">
+         <label>First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+         <label>Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         <label>Email</label>
+         <input type="text" id="email" name="email" placeholder="Your email...">
+         <label>Subject</label>
+         <select id="subject" name="subject">
+      <option value="suggestions">Website improvements</option>
+      <option value="info">Requesting more information</option>
+      <option value="wrongInfo">Incorrect information on this website</option>
+    </select>
+    <input type="submit" value="Submit">
+       </form>
+    </div>
+
+    <h3>Here is the sample email I will send you back (depending on the subject)</h3>
+
+    <address id = "myAdress">
+      <p>
+      Grace Hudgens<br>
+      1234 Street st<br>
+      Misc city<br>
+      California<br>
+      USA<br>
+      </p>
+
+      <h4>Contact Information</h4>
+      <p>
+        Email: thisIsAFakeEmail@fakeEmail.com<br>
+        Phone: (123) 456-789<br>
+      </p>
+      <p><time datetime = "2020-09-08">September 9th 2020</time></p>
+      </address>
+      <address>
+        <p>
+        Your name<br>
+        Your email<br>
+        </p>
+      </address>
+      <h5>Re: Your subject</h5>
+      <p>Here is where I would address you concerns or comments about this website or plants in general</p>
+      <p>I would look forward to talking with you!</p>
+      <p>Have a nice day,</p>
+      <h3> Grace Hudgens</h3>
+
+</div>
+</div>
+  </body>
+  </html>
